@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T22:40:16.829Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="lJwPLCO91lF5zPPVesvL" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T22:40:36.927Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="egLRthM2wM0dECQILJla" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="868" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="140" dy="70" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -107,10 +107,10 @@
         <mxCell id="wRzFOINL_raNaeofd8Ia-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;interface&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Façade&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- numConta&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ efetuarLogin(numConta:.,senha:.):.&lt;br&gt;+ consultarSaldo():.&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ efetuarSaque(quant:.):.&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ solicitarDeposito(quant:.):.&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ verificarSenha(senha:.):.&lt;br&gt;+ obterStatus():.&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ obterSaldo():.&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ debitar(quant:.):.&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ desativar():.&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ depositar():.&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ativar():.&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ atualizarStatusLoginCaixa(numConta:.):.&lt;br&gt;+ obterNumConta():.&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ obterQuantDisponivel():.&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ debitarValor(quant:.):.&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ liberarQuantia(quant:.):.&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="90" y="130" width="250" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="wRzFOINL_raNaeofd8Ia-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.019;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RDTARKWvVBVLJ8gn_Zw1-18" edge="1">
+        <mxCell id="wRzFOINL_raNaeofd8Ia-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="381" as="sourcePoint" />
-            <mxPoint x="380" y="330" as="targetPoint" />
+            <mxPoint x="430" y="381" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
