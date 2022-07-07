@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T18:15:06.712Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7Ysao_bZv-H2u6rMNi_b" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T18:18:09.560Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KjQsX6-6QS_t0ZpsHv-k" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -133,20 +133,20 @@
         <mxCell id="ReETAt5n-PPbE5-SFQhU-14" value="+ ObterSaldo(): float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-4">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ReETAt5n-PPbE5-SFQhU-15" value="+ debitar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-4">
+        <mxCell id="ReETAt5n-PPbE5-SFQhU-15" value="+ debitar(quant: float)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-4">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ReETAt5n-PPbE5-SFQhU-16" value="+ desativar():" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-4">
+        <mxCell id="ReETAt5n-PPbE5-SFQhU-16" value="+ desativar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-4">
           <mxGeometry y="138" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ReETAt5n-PPbE5-SFQhU-17" value="+ item: attribute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-4">
+        <mxCell id="ReETAt5n-PPbE5-SFQhU-17" value="+ depositar(quant: float)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-4">
           <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ReETAt5n-PPbE5-SFQhU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ReETAt5n-PPbE5-SFQhU-8" target="ReETAt5n-PPbE5-SFQhU-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ReETAt5n-PPbE5-SFQhU-8" value="Inativa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1130" y="460" width="160" height="86" as="geometry" />
+          <mxGeometry x="1130" y="460" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ReETAt5n-PPbE5-SFQhU-9" value="- conta: Conta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-8">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -156,6 +156,18 @@
         </mxCell>
         <mxCell id="ReETAt5n-PPbE5-SFQhU-11" value="+ obter Status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-8">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ReETAt5n-PPbE5-SFQhU-18" value="+ ObterSaldo(): float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-8">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ReETAt5n-PPbE5-SFQhU-19" value="+ debitar(quant: float)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-8">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ReETAt5n-PPbE5-SFQhU-20" value="+ desativar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-8">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ReETAt5n-PPbE5-SFQhU-21" value="+ depositar(quant: float)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-8">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
