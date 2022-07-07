@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T18:52:09.779Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TYKQZyBBnW5FvH--lJaD" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T20:13:03.948Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="V-zUkkHgJ8D732BnzNDe" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="868" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -163,15 +163,6 @@
         </mxCell>
         <mxCell id="ReETAt5n-PPbE5-SFQhU-22" value="public debitar(){&lt;br&gt;&amp;nbsp; &amp;nbsp; System.out.println(&quot;Operação não permitida. Conta inativa. Operação será liberada quando o saldo for positivo.&quot;)&lt;br&gt;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="510" y="574" width="650" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="s_5iIo6H0aIoNs8br0N9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.881;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s_5iIo6H0aIoNs8br0N9-0" target="RDTARKWvVBVLJ8gn_Zw1-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s_5iIo6H0aIoNs8br0N9-0" value="public debitar(){&lt;br&gt;&amp;nbsp; &amp;nbsp; state.debitar()&lt;br&gt;}&lt;br&gt;If(saldo &amp;lt;= 0){&lt;br&gt;&amp;nbsp; &amp;nbsp; state = Inativa&lt;br&gt;else&lt;br&gt;&amp;nbsp; &amp;nbsp; state = ativa" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="443" width="130" height="107" as="geometry" />
-        </mxCell>
-        <mxCell id="s_5iIo6H0aIoNs8br0N9-3" value="public debitar(quant: float){&lt;br&gt;&amp;nbsp; &amp;nbsp; conta&lt;br&gt;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="850" y="451" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
