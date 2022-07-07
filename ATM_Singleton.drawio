@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T16:56:46.156Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_hkehXgCIpKkWJD7Vcrr" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T17:03:30.587Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MP1_U0XP4HNr9P9V1CmF" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -44,6 +44,14 @@
             <Array as="points">
               <mxPoint x="710" y="399" />
               <mxPoint x="710" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2rusWfzDz1zi7gcu8Gq9-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RDTARKWvVBVLJ8gn_Zw1-18" target="2rusWfzDz1zi7gcu8Gq9-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="439" />
+              <mxPoint x="320" y="439" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -103,6 +111,9 @@
         </mxCell>
         <mxCell id="2rusWfzDz1zi7gcu8Gq9-0" value="Exercício 1 - Padrão singleton" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=40;labelBorderColor=none;strokeWidth=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="290" y="20" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2rusWfzDz1zi7gcu8Gq9-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;interface&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Singleton&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- ControladorCaixa(): ControladorCaixa&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;u&gt;+ getInstance(): ControladorCaixa&lt;/u&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="397" width="220" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
