@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T18:26:10.410Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="sEbax416EHIJfdozG4ws" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T18:28:05.036Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="r7tlxRYMYY7zSvA7AUT1" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2480" dy="1234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -177,7 +177,7 @@
         <mxCell id="ReETAt5n-PPbE5-SFQhU-21" value="+ depositar(quant: float)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReETAt5n-PPbE5-SFQhU-8">
           <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ReETAt5n-PPbE5-SFQhU-22" value="public debitar(){&lt;br&gt;&amp;nbsp; &amp;nbsp; System.out.println(&quot;Operação nçao permitida. Conta inativa. Operação será liberada quando o saldo for positivo.&quot;)&lt;br&gt;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ReETAt5n-PPbE5-SFQhU-22" value="public debitar(){&lt;br&gt;&amp;nbsp; &amp;nbsp; System.out.println(&quot;Operação não permitida. Conta inativa. Operação será liberada quando o saldo for positivo.&quot;)&lt;br&gt;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="670" width="650" height="70" as="geometry" />
         </mxCell>
       </root>
